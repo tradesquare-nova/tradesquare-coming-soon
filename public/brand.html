@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradesquare Color Swatches</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #F9FAFB;
+            color: #111827;
+            padding: 40px;
+            margin: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+        h1 { color: #0F172A; margin-bottom: 10px; }
+        h2 { 
+            color: #0F172A; 
+            margin-top: 40px; 
+            border-bottom: 2px solid #E5E7EB;
+            padding-bottom: 10px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .swatch {
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #E5E7EB;
+            background: white;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        .color-preview {
+            height: 120px;
+            width: 100%;
+        }
+        .info {
+            padding: 15px;
+        }
+        .name {
+            font-weight: bold;
+            display: block;
+            font-size: 14px;
+        }
+        .hex {
+            font-family: monospace;
+            color: #6B7280;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Tradesquare Brand Swatches</h1>
+    <p>Official color system for website, app, and marketing materials.</p>
+
+    <h2>Primary Colors</h2>
+    <div class="grid">
+        <div class="swatch">
+            <div class="color-preview" style="background-color: #0F172A;"></div>
+            <div class="info">
+                <span class="name">Deep Navy</span>
+                <span class="hex">#0F172A</span>
+            </div>
+        </div>
+        <div class="swatch">
+            <div class="color-preview" style="background-color: #16A34A;"></div>
+            <div class="info">
+                <span class="name">Tradesquare Green</span>
+                <span class="hex">#16A34A</span>
+            </div>
+        </div>
+        <div class="swatch">
+            <div class="color-preview" style="background-color: #22C55E;"></div>
+            <div class="info">
+                <span class="name">Soft Green</span>
+                <span class="hex">#22C55E</span>
+            </div>
+        </div>
+    </div>
+
+    <h2>Backgrounds & Accents</h2>
+    <div class="grid">
+        <div class="swatch">
+            <div class="color-preview" style="background-color: #ECFDF5; border-bottom: 1px solid #E5E7EB;"></div>
+            <div class="info">
+                <span class="name">Mint Background</span>
+                <span class="hex">#ECFDF5</span>
+            </div>
+        </div>
+        <div class="swatch">
+            <div class="color-preview" style="background-color: #F59E0B;"></div>
+            <div class="info">
+                <span class="name">Amber Accent</span>
+                <span class="hex">#F59E0B</span>
+            </div>
+        </div>
+    </div>
+
+    <h2>Neutral Colors</h2>
+    <div class="grid">
+        <div class="swatch">
+            <div class="color-preview" style="background-color: #111827;"></div>
+            <div class="info">
+                <span class="name">Primary Text</span>
+                <span class="hex">#111827</span>
+            </div>
+        </div>
+        <div class="swatch">
+            <div class="color-preview" style="background-color: #6B7280;"></div>
+            <div class="info">
+                <span class="name">Secondary Text</span>
+                <span class="hex">#6B7280</span>
+            </div>
+        </div>
+        <div class="swatch">
+            <div class="color-preview" style="background-color: #E5E7EB;"></div>
+            <div class="info">
+                <span class="name">Borders & Dividers</span>
+                <span class="hex">#E5E7EB</span>
+            </div>
+        </div>
+        <div class="swatch">
+            <div class="color-preview" style="background-color: #FFFFFF;"></div>
+            <div class="info">
+                <span class="name">White</span>
+                <span class="hex">#FFFFFF</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

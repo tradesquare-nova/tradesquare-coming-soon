@@ -10,3 +10,7 @@
   /* This creates bg-primary-dark, text-primary-dark, etc. */
   --color-primary-dark: #007d34;
 }
+
+button{
+  cursor: pointer;
+}
